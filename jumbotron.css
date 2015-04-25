@@ -1,0 +1,71 @@
+/* Base */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 16px 'Open Sans', sans-serif;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+  display: table;
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.jumbotron:after {
+  background-color: rgba(0, 0, 0, 0.44);
+  content: '';
+  left: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.jumbotron .logo {
+  display: table-cell;
+  padding: 0 5vw;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  z-index: 1;
+}
+
+.jumbotron .bg-img img {
+  height: 0;
+  width: 0;
+}
+
+.jumbotron .bg-img {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+.jumbotron .jumbo01 {
+  background-image: url('jumbo01.jpg');
+}
+
+.jumbotron .jumbo02 {
+  background-image: url('jumbo02.jpg');
+}
