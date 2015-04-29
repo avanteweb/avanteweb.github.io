@@ -14,8 +14,8 @@
     "jumbotron",
     "menu-de-navegacao",
     "quem-somos",
-    "projetos",
     "equipe",
+    "projetos",
     "contatos",
     "parceiros",
   ];
