@@ -11,8 +11,8 @@
 
   // Lista de módulos em `{nome-do-modulo}/`
   $modules = [
-    "menu-de-navegacao",
     "jumbotron",
+    "menu-de-navegacao",
     "quem-somos",
     "projetos",
     "equipe",
