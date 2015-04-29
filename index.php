@@ -21,9 +21,10 @@
   ];
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
   <title>Avante | Estúdio de Tecnologia</title>
   <style>
     <?php
