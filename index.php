@@ -5,6 +5,7 @@
   <title>Avante | Estúdio de Tecnologia</title>
   <style>
     <?php
+    // Lista de arquivos globais `global/styles/{nome-do-arquivo}.css`
     $styles = [
       "styles",
     ];
@@ -19,6 +20,7 @@
 </head>
 <body>
   <?php
+  // Lista de módulos em `{nome-do-modulo}/`
   $modules = [
     "menu-de-navegacao",
     "jumbotron",
@@ -39,12 +41,13 @@
 
   <script>
     <?php
+    // Lista de arquivos globais `global/scripts/{nome-do-arquivo}.js`
     $scripts = [
       "scripts",
     ];
 
     foreach ($scripts as $key => $value) {
-      $scriptPath = 'global/scripts/' . $value . '/css';
+      $scriptPath = 'global/scripts/' . $value . '.js';
       if (file_exists($scriptPath)) {
         include $scriptPath;
       }
