@@ -1,0 +1,30 @@
+/* Resets */
+
+*,
+*:before,
+*:after {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Elementos de bloco */
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Classes Globais */
+
+.clearfix:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1000px;
+}
