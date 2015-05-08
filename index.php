@@ -1,6 +1,7 @@
 <?php
   // Lista de arquivos globais `global/styles/{nome-do-arquivo}.css`
   $styles = [
+    "fonts",
     "styles",
   ];
 
