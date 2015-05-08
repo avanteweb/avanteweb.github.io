@@ -1,4 +1,4 @@
-.module.parceiros hr { 
+.module.parceiros hr {
   border: 0;
   height: 4px;
   background: #90ada9;
@@ -16,11 +16,11 @@
   padding-right: 15px;
 }
 
-.module.parceiros  div.posicao {
+.module.parceiros div.posicao {
   margin-left: 180px;
 }
 
-.module.parceiros .x img { 
+.module.parceiros .x img {
   width: 70px;
   height: 80px;
   margin-top: 23px;
@@ -28,7 +28,7 @@
   margin-right: 40px;
 }
 
-.module.parceiros .etec img { 
+.module.parceiros .etec img {
   width: 130px;
   height: 50px;
   margin-top: 23px;
@@ -36,7 +36,7 @@
   margin-right: 50px;
 }
 
-.module.parceiros .toledo img { 
+.module.parceiros .toledo img {
   width: 160px;
   height: 50px;
   margin-top: 23px;
@@ -44,7 +44,7 @@
   margin-right: 30px;
 }
 
-.module.parceiros .gaivota img { 
+.module.parceiros .gaivota img {
   width: 100px;
   height: 90px;
   margin-top: 23px;
