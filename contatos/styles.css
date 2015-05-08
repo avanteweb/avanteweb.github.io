@@ -1,98 +1,53 @@
-/*contatos css*/
-
-/*
-  Opens Sans semibold 31pt 
-  Open Sans Light 23pt 
-  Open Sans Light 15pt
-
-Quero ver o conteúdo desse bloco alinhado em 1000px e centralizado, com uma margem de altura de 43px
-
-Quero ver uma marcação do titulo com uma linha na horizontal da cor #eeeae3, com a altura de 4px
-
-Quero ver o título "CONTATOS" da cor #eeeae3, com a fonte semibold, centralizado entre as duas linhas, contendo uma margem de 15px
-
-Quero ver um ícone de endereço com 33px de largura e 24px de altura
-
-Quero ver o título "Endereço" de cor #fff(Branco) e o endereço com as fonte da issue #2
-
-Quero ver um ícone do GitHub com 33px de largura e 24px de altura, e o link para o repositório no GitHub de cor #fff(branca) com a fonte da issue #2
-
-Quero ver um mapa com 536px de largura e 204px de altura
-
-Quero ver esse bloco com o fundo da cor #20546a*/
-
-
-
-hr {
-  margin-top: -40px;
-  height: 4px;
-  background-color: #fff;
-  z-index: 0;
-}
-.titulo {
-  position: relative;
-  background-color: #20546a;
-  width: 150px;
-  height: 4px;
-  margin-left: 100px;
-  padding: 30px 5px 30px 5px;
-  text-align: center;
-  font-family: 'Arial', sans-serif;  
-  font-size: 20px;  
-  color: #fff;
-  z-index: 1;
-}
-
-
 .module.contatos {
   background-color: #20546a;
   margin-top: 43px;
+  height: 381px;
 }
 
 .module.contatos hr {
+  background-color: #eeeae3;
+  position: absolute;
+  margin-top: -15px;
   width: 1000px;
   height: 4px;
-  background-color: #fff;
-  margin-left: auto;
-  margin-top: -10px;
-  position: absolute;
   z-index: 0;
 }
 
 .module.contatos h1.titulo {
   background-color: #20546a;
-  width: auto;
-  height: 20px;
+  position: relative;
   margin-left: 73px;
-  vertical-align: middle;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 200px;
   z-index: 1;
   text-transform: uppercase;
-  font-family: 'Open Sans semibold' Arial; /*Opens Sans semibold*/
-  font-size: 18pt;
+  font-family: 'OpenSansSemibold', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 31px;
   color: #eeeae3;
-  border: 1px solid #000;
 }
 
 .module.contatos p.titulo-endereco {
   background-image: ;
   color: #fff;
-  font-family: 'Arial'; /*Open Sans Light*/
-  font-size: 16pt;
-  margin-top: 50px;
+  font-family: 'OpenSansLight', sans-serif; 
+  font-size: 23px;
   padding: 0;
 }
 
 .module.contatos p.texto-endereco {
-  font-family: 'Arial';/*Open Sans Light*/
-  font-size: 13pt;
+  font-family: 'OpenSansLight', sans-serif;
+  font-size: 15px;
   color: #fff; 
 }
 
 .module.contatos p.git {
   background-image: ;
   color: #fff;
-  font-family: 'Arial';/*Open Sans Light*/
-  font-size: 13pt;
+  font-family: 'OpenSansLight', sans-serif;
+  font-size: 15px;
   margin-top: 30px;
 }
 
@@ -102,12 +57,18 @@ hr {
 }
 
 .module.contatos div.esquerda{
-  width: 40%;
-  margin: 0;  
+  width: 400px;
+  margin-top: 80px;
+  display: inline-block;
 }
 
-.module.contatos img.mapa {
+.module.contatos p.google-maps {
+  position: relative;
   width: 536px;
   height: 204px;
-  float: right;  
+  margin-top: 30px;
+  margin-right: 40px;
+  display: inline-block;
+  float: right;
+  border: 1px solid #fff;
 }
