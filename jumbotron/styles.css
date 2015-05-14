@@ -1,0 +1,45 @@
+.module.jumbotron {
+  background-image: url('jumbotron/img/jumbotron01.jpg');
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.module.jumbotron:after {
+  background-color: rgba(0, 0, 0, .44);
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.module.jumbotron h1 img {
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  opacity: 1;
+  z-index: 2;
+}
+
+.module.jumbotron h1:after {
+  color: #fff;
+  content: 'Estúdio de Tecnologia';
+  font: 48pt 'Open Sans';
+  font-weight: 300;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: calc(50% + 1em);
+  width: 100%;
+  z-index: 2;
+}
+
+.module.jumbotron img {
+  display: none;
+}
