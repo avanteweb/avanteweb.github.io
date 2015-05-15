@@ -27,7 +27,7 @@
   z-index: 2;
 }
 
-.module.jumbotron h1:after {
+.module.jumbotron .moto {
   color: #fff;
   content: 'Estúdio de Tecnologia';
   font: 48pt 'Open Sans';
