@@ -7,17 +7,25 @@
 }
 
 .module.parceiros h1 {
-  margin-left: 71px;
+  margin-top: 40px;
+  margin-left: 73px;
   padding: -20px;
   background-color: #fff;
   z-index: 1;
   display: inline-block;
   padding-left: 15px;
   padding-right: 15px;
+  font-family: 'OpenSansSemibold', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 31px;
+  color: #20546a;
 }
 
 .module.parceiros div.posicao {
+  margin-top: 20px;
   margin-left: 180px;
+  margin-bottom: 20px;
 }
 
 .module.parceiros .x img {
