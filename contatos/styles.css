@@ -6,38 +6,39 @@ repositório no GitHub de cor #fff(branca) com a fonte da issue #2
 */
 
 .module.contatos {
-  background-color: #20546a;
   margin-top: 43px;
   height: 381px;
+  background-color: #20546a;
 }
 
 .module.contatos hr {
-  background-color: #eeeae3;
   position: absolute;
+  z-index: 0;
   margin-top: -15px;
   width: 1000px;
   height: 4px;
-  z-index: 0;
+  background-color: #eeeae3;
 }
 
 .module.contatos h1.titulo {
-  background-color: #20546a;
   position: relative;
-  padding-top: 40px;
-  margin-left: 73px;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 200px;
   z-index: 1;
+  margin-left: 73px;
+  padding-top: 40px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 200px;
+  background-color: #20546a;
   text-transform: uppercase;
   font-family: 'OpenSansSemibold', sans-serif;
+  font-size: 31px;
   text-align: center;
   vertical-align: middle;
-  font-size: 31px;
   color: #eeeae3;
 }
 
 .module.contatos p.titulo-endereco {
+  padding-left: 40px;
   background-image: url('contatos/img/house.png');
   background-size: 33px 24px;
   background-position: 0 50%;
@@ -45,7 +46,6 @@ repositório no GitHub de cor #fff(branca) com a fonte da issue #2
   color: #fff;
   font-family: 'OpenSansLight', sans-serif; 
   font-size: 23px;
-  padding-left: 40px;
 }
 
 .module.contatos p.texto-endereco {
@@ -55,6 +55,8 @@ repositório no GitHub de cor #fff(branca) com a fonte da issue #2
 }
 
 .module.contatos p.git {
+  margin-top: 30px;
+  padding-left: 40px;
   background-image: url('contatos/img/github.png');
   background-size: 33px 24px;
   background-position: 0 50%;
@@ -62,10 +64,6 @@ repositório no GitHub de cor #fff(branca) com a fonte da issue #2
   color: #fff;
   font-family: 'OpenSansLight', sans-serif;
   font-size: 15px;
-  margin-top: 30px;
-  padding-left: 40px;
-
-
 }
 
 .module.contatos a{
@@ -74,18 +72,17 @@ repositório no GitHub de cor #fff(branca) com a fonte da issue #2
 }
 
 .module.contatos div.esquerda{
-  width: 400px;
   margin-top: 80px;
+  width: 400px;
   display: inline-block;
 }
 
-.module.contatos p.google-maps {
+.module.contatos img.google-maps {
   position: relative;
-  width: 536px;
-  height: 204px;
-  margin-top: 30px;
-  margin-right: 40px;
   display: inline-block;
   float: right;
-  border: 1px solid #fff;
+  margin-top: 30px;
+  margin-right: 40px;
+  width: 536px;
+  height: 204px;
 }
