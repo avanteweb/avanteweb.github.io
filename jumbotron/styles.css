@@ -1,0 +1,61 @@
+.module.jumbotron {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+.module.jumbotron:after {
+  background-color: rgba(0, 0, 0, .44);
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.module.jumbotron .logo {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.module.jumbotron .moto {
+  color: #fff;
+  font: 48pt 'Open Sans';
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: calc(50% + 1em);
+  width: 100%;
+  z-index: 2;
+}
+
+.module.jumbotron .slider {
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.module.jumbotron .slider figure {
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.module.jumbotron .slider figure:first-child {
+  opacity: 1;
+}

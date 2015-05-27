@@ -41,7 +41,7 @@ A pasta `global` localizada na raíz possúi a seguinte estrutura:
 
 Arquivos `/global/styles/{nome-do-arquivo}.css`
 
-Para alterar a lista de arquivos incluídos confira em [index.php#L8](index.php#L8).
+Para alterar a lista de arquivos incluídos confira em [index.php#L3](index.php#L3).
 
 Exemplo:
 
@@ -58,7 +58,7 @@ $styles = [
 
 Arquivos `/global/scripts/{nome-do-arquivo}.js`
 
-Para alterar a lista de arquivos incluídos confira em [index.php#L44](index.php#L44).
+Para alterar a lista de arquivos incluídos confira em [index.php#L8](index.php#L8).
 
 Exemplo:
 
@@ -91,7 +91,7 @@ Exemplo de estrutura de arquivos dentro de um módulo:
 
 ### Lista de módulos
 
-Para alterar a lista de pastas incluídas confira em [index.php#L23](index.php#L23).
+Para alterar a lista de pastas incluídas confira em [index.php#L13](index.php#L13).
 
 Exemplo:
 
