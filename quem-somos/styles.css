@@ -29,7 +29,6 @@
 
 .module.quem-somos div.posicao {
   margin-top: 40px;
-  /*margin-left: 180px;*/
   margin-bottom: 20px;
   display: inline-block;
   margin-right: 450px; 
@@ -52,7 +51,6 @@
   height: 200px;
 }
 
-
 .module.quem-somos div.imagem2{ 
   float: right;
   margin-top: -410px;
@@ -61,7 +59,7 @@
   height: 170px;
 }
 
-.module.quem-somos div.imagem1:hover {
+/*.module.quem-somos div.imagem1:hover {
   width: 600px;
   height: 400px; 
 }
@@ -69,5 +67,5 @@
 .module.quem-somos div.imagem2:hover {
   width: 600px;
   height: 400px;
-}
+} ESPERANDO DECISÃO DA EQUIPE*/
 
