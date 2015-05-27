@@ -1,0 +1,94 @@
+.module.equipe {
+  position: relative;
+  height: 420px;
+  width: 100%;
+  z-index: 999;
+  background-color: #fff;
+}
+.module.equipe h1 {
+  position: relative;
+  text-indent: 2em;
+  color: #36561a;
+  font-weight: semibold;
+  font-size: 31px;
+  font-family: 'Open Sans';
+}
+
+.module.equipe h1 span {
+  background: white;
+  padding: 1em;
+}
+
+.module.equipe h1:after {
+  content: '';
+  display: block;
+  width: 100%;
+  border-bottom: 4px solid #36561a;
+  z-index: -1;
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+}
+.module.equipe h2 {
+  margin: 15px;
+}
+.module.equipe img {
+  position: relative;
+  width: 154px;
+  height: 154px;
+  border-radius: 50%;
+  padding: 27px;
+  transition: width .15s, height .15s, padding .15s;
+  z-index: 1;
+  margin-top: -130px;
+}
+.module.equipe li:hover img {
+  position: relative;
+  width: 208px;
+  height: 208px;
+  padding: 0;
+  transition: width .5s, height .5s, padding .5s;
+  z-index: 999;
+}
+.module.equipe ul li {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.module.equipe .foto {
+  position: relative;
+  top: 100px;
+  z-index: 0;
+}
+.module.equipe .nome {
+  position: relative;
+  top: 80px;
+  width: 200px;
+  z-index: 1;
+  font-size: 20px;
+}
+.module.equipe .funcao {
+  position: relative;
+  top: -92px;
+  left: 25px;
+  height: 150px;
+  width: 150px;
+  opacity: 100;
+  font-size: 16px;
+  transition: opacity .5s;
+  z-index: 2;
+  display: inline-block;
+  font-family: 'KG Adipose Unicase';
+}
+.module.equipe li .funcao, li .nome {
+  opacity: 0;
+  transition: opacity .15s;
+}
+.module.equipe li:hover .funcao, li:hover .nome {
+  opacity: 100;
+  z-index: 2;
+  transition: opacity .5s;
+}
