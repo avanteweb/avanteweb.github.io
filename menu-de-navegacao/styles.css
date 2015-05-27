@@ -1,0 +1,11 @@
+/*
+Uma faixa de cor #ffffff(branca) opacidade de 71%, com largura de 1920px e altura de 52px.
+"Quem somos", "Equipe", "Contatos, "Projetos" e "Parceiros" com a cor #000000(preta), 
+espaçamento entre as palavras de 34px, margem de altura de 25px com a fonte Roboto Light 20pt
+um efeito de mouseover de cor #000(preta) com opacidade de 43%,
+com a forma de um retângulo que se adapte as outras palavras do menu contendo uma altura de 52px.
+E quando selecionado que me redirecione ao respectivo "bloco de conteúdo selecionado"
+*/
+.module.menu {
+
+}
