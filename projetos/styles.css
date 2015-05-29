@@ -1,18 +1,18 @@
 .module.projetos {
   background-color: #526233;
-  color: #fff;
+  height: 750px;
 }
 
 .module.projetos .wrapper {
-  padding: 30px;
+  padding-top: 43px;
   position: relative;
 }
 
 .module.projetos .wrapper:before {
-  border-bottom: 3px solid #fff;
+  border-bottom: 4px solid #eeeae3;
   content: '';
   position: absolute;
-  top: 75px;
+  top: 90px;
   width: calc(100% - 60px);
   z-index: 1;
 }
@@ -24,10 +24,11 @@
 
 .module.projetos h1 {
   background-color: #526233;
+  color: #eeeae3;
   display: inline-block;
   font: 31pt 'Opens Sans semibold';
-  margin-left: 100px;
-  padding: 10px;
+  margin-left: 73px;
+  padding: 15px;
   position: relative;
   z-index: 2;
 }
@@ -37,8 +38,7 @@
 }
 
 .module.projetos .top-bar {
-  height: 150px;
-  margin: 25px 0 60px 0;
+  height: 161px;
   overflow-y: hidden;
   position: relative;
 }
@@ -53,17 +53,17 @@
   display: block;
   float: left;
   position: relative;
-  width: calc(100%/4);
 }
 
 .module.projetos .top-bar figure {
-  height: 150px;
+  height: 161px;
   position: relative;
+  width: 249px;
   z-index: 1;
 }
 
 .module.projetos .top-bar figure:after {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(238, 234, 227, .79);
   height: 100%;
   left: 0;
   content: '';
@@ -75,6 +75,11 @@
   z-index: 2;
 }
 
+.module.projetos .top-bar figure:hover {
+  height: 174px;
+  width: 275px;
+}
+
 .module.projetos .top-bar figure:hover:after {
   opacity: 1;
   transition: opacity .5s;
@@ -82,11 +87,7 @@
 }
 
 .module.projetos .top-bar img {
-  min-height: 150px;
-}
-
-.module.projetos .top-bar img:hover {
-  min-height: 150px;
+  min-height: 161px;
 }
 
 .module.projetos .top-bar figcaption {
@@ -111,7 +112,12 @@
 .module.projetos .description,
 .module.projetos .project-slider {
   float: left;
+  margin-top: 43px;
   width: 50%;
+}
+
+.module.projetos .description {
+  color: #fff;
 }
 
 .module.projetos .description h2 {
@@ -121,6 +127,11 @@
 
 .module.projetos .description p {
   margin: 1em;
+}
+
+.module.projetos .description p:before {
+  content: '';
+  margin-left: 5px;
 }
 
 .module.projetos .project-slider {
