@@ -11,7 +11,7 @@
   color: #36561a;
   font-weight: semibold;
   font-size: 31px;
-  font-family: 'Open Sans';
+  font-family: 'OpenSansRegular';
 }
 
 .module.equipe h1 span {
@@ -44,8 +44,6 @@
 }
 .module.equipe li:hover img {
   position: relative;
-  width: 208px;
-  height: 208px;
   padding: 0;
   transition: width .5s, height .5s, padding .5s;
   z-index: 999;
