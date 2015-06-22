@@ -17,3 +17,9 @@
   font-family: 'RobotoLight';
   src: url("global/fonts/Roboto-Light.ttf");
 }
+
+@font-face {
+  font-family: 'KGAdipose';
+  src: url("global/fonts/KGAdiposeUnicase.ttf");
+}
+
