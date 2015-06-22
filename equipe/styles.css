@@ -1,10 +1,12 @@
 .module.equipe {
   position: relative;
-  height: 420px;
+  top: 40px;
+  height: 400px;
   width: 100%;
   z-index: 999;
   background-color: #fff;
 }
+
 .module.equipe h1 {
   position: relative;
   text-indent: 2em;
@@ -12,6 +14,7 @@
   font-weight: semibold;
   font-size: 31px;
   font-family: 'OpenSansRegular';
+  text-transform: uppercase;
 }
 
 .module.equipe h1 span {
@@ -29,29 +32,31 @@
   bottom: 8px;
   left: 0;
 }
+
 .module.equipe h2 {
   margin: 15px;
 }
+
 .module.equipe img {
   position: relative;
-  width: 154px;
-  height: 154px;
+  width: 194px;
+  height: 194px;
   border-radius: 50%;
-  padding: 27px;
+  padding: 20px;
   transition: width .15s, height .15s, padding .15s;
   z-index: 1;
-  margin-top: -130px;
+  margin-top: -80px;
 }
 .module.equipe li:hover img {
   position: relative;
-  padding: 0;
-  transition: width .5s, height .5s, padding .5s;
+  transition: width .15s, height .15s, padding .15s;
   z-index: 999;
+  padding: 0;
 }
 .module.equipe ul li {
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 190px;
+  height: 190px;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -64,22 +69,24 @@
 .module.equipe .nome {
   position: relative;
   top: 80px;
-  width: 200px;
+  width: 190px;
   z-index: 1;
   font-size: 20px;
+  font-family: 'OpenSansSemibold';
 }
 .module.equipe .funcao {
   position: relative;
+  border: 0px solid #000;
   top: -92px;
-  left: 25px;
-  height: 150px;
-  width: 150px;
+  left: 0;
+  height: 190px;
+  width: 190px;
   opacity: 100;
-  font-size: 16px;
+  font-size: 20px;
   transition: opacity .5s;
   z-index: 2;
   display: inline-block;
-  font-family: 'KG Adipose Unicase';
+  font-family: 'OpenSansSemibold';
 }
 .module.equipe li .funcao, li .nome {
   opacity: 0;
