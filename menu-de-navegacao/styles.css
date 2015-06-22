@@ -35,6 +35,10 @@
   background-color: rgba(0,0,0, 0.43);
 }
 
+.module.menu ul li a:hover{
+  color: #fff;
+}
+
 .module.menu ul li a{
   color: #000;
   text-decoration: none;
