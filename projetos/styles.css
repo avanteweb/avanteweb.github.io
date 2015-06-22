@@ -12,7 +12,7 @@
   border-bottom: 4px solid #eeeae3;
   content: '';
   position: absolute;
-  top: 90px;
+  top: 86px;
   width: calc(100% - 60px);
   z-index: 1;
 }
@@ -26,11 +26,16 @@
   background-color: #526233;
   color: #eeeae3;
   display: inline-block;
-  font: 31pt 'Opens Sans semibold';
+  font: 31px 'OpenSansSemibold';
   margin-left: 73px;
   padding: 15px;
   position: relative;
+  text-transform: uppercase;
   z-index: 2;
+}
+
+.module.projetos h2 {
+  font: 23px 'OpenSansLight';
 }
 
 .module.projetos ul {
@@ -75,11 +80,6 @@
   z-index: 2;
 }
 
-.module.projetos .top-bar figure:hover {
-  height: 174px;
-  width: 275px;
-}
-
 .module.projetos .top-bar figure:hover:after {
   opacity: 1;
   transition: opacity .5s;
@@ -91,8 +91,8 @@
 }
 
 .module.projetos .top-bar figcaption {
-  color: #333;
-  font: 20pt 'KG Adipose Unicase regular';
+  color: #20546a;
+  font: 20px 'KGAdipose';
   left: 0;
   line-height: 1em;
   opacity: 0;
@@ -126,6 +126,7 @@
 }
 
 .module.projetos .description p {
+  font: 15px 'OpenSansLight';
   margin: 1em;
 }
 
