@@ -1,6 +1,6 @@
 .module.projetos {
   background-color: #526233;
-  height: 750px;
+  height: 790px;
 }
 
 .module.projetos .wrapper {
@@ -12,8 +12,8 @@
   border-bottom: 4px solid #eeeae3;
   content: '';
   position: absolute;
-  top: 86px;
-  width: calc(100% - 60px);
+  top: 110px;
+  width: 1000px;
   z-index: 1;
 }
 
@@ -28,7 +28,7 @@
   display: inline-block;
   font: 31px 'OpenSansSemibold';
   margin-left: 73px;
-  padding: 15px;
+  padding: 40px;
   position: relative;
   text-transform: uppercase;
   z-index: 2;
@@ -46,6 +46,7 @@
   height: 161px;
   overflow-y: hidden;
   position: relative;
+  margin-top: 5px;
 }
 
 .module.projetos .top-bar .top-bar-wrap {
@@ -112,7 +113,7 @@
 .module.projetos .description,
 .module.projetos .project-slider {
   float: left;
-  margin-top: 43px;
+  margin-top: 50px;
   width: 50%;
 }
 
