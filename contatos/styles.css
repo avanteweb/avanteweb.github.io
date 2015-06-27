@@ -33,7 +33,7 @@
 .module.contatos p.titulo-endereco {
   padding-left: 40px;
   background-image: url('contatos/img/house.png');
-  background-size: 33px 24px;
+  background-size: 25px 25px;
   background-position: 0 50%;
   background-repeat: no-repeat;
   color: #fff;
@@ -51,7 +51,7 @@
   margin-top: 30px;
   padding-left: 40px;
   background-image: url('contatos/img/github.png');
-  background-size: 33px 24px;
+  background-size: 25px 25px;
   background-position: 0 50%;
   background-repeat: no-repeat;
   height: 24px;
