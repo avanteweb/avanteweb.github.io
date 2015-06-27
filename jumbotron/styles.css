@@ -17,22 +17,12 @@
 }
 
 .module.jumbotron .logo {
-  height: 100%;
-  left: 0;
+  height: auto;
+  left: 50%;
+  margin: -62px 0 0 -250px;
   position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 2;
-}
-
-.module.jumbotron .moto {
-  color: #fff;
-  font: 48pt 'OpenSansLight';
-  left: 0;
-  position: absolute;
-  text-align: center;
-  top: calc(50% + 1em);
-  width: 100%;
+  top:50%;
+  width: 500px;
   z-index: 2;
 }
 
