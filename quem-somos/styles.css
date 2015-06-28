@@ -1,5 +1,6 @@
 .module.quem-somos {
   background: #eeeae3;
+  height: 600px;
 }
 
 .module.quem-somos hr {
@@ -20,7 +21,7 @@
   padding-left: 15px;
   padding-right: 15px;
   font-size: 31px;
-  font-family: 'OpenSansSemibold', sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
   text-transform: uppercase;
   vertical-align: middle;
