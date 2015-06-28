@@ -1,0 +1,46 @@
+.module.menu {
+	display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  padding:10px 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 9999;
+}
+
+.module.menu ul {
+  list-style: none;
+  text-align: center;
+}
+
+.module.menu ul li {
+  display: inline-block;
+  margin:0 20px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.module.menu .logo {
+  display:block;
+  width:auto;
+  height: 30px; 
+  opacity: 0.8;
+}
+
+.module.menu a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -o-transition: color 0.5s; 
+  transition: color 0.5s;
+}
+.module.menu ul li a:hover{
+  color: rgba(255,255,255,1);
+}
