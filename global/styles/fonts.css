@@ -23,3 +23,20 @@
   src: url("global/fonts/KGAdiposeUnicase.ttf");
 }
 
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 500;
+  src: url("global/fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 300;
+  src: url("global/fonts/Raleway-Thin.ttf");
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 700;
+  src: url("global/fonts/Raleway-Bold.ttf");
+}

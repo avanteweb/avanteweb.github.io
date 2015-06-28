@@ -13,7 +13,7 @@
   // Lista de módulos em `{nome-do-modulo}/`
   $modules = [
     "jumbotron",
-    "menu-de-navegacao",
+    "menu",
     "quem-somos",
     "equipe",
     "projetos",
@@ -72,10 +72,10 @@
     }
 
     // Inclui os JSs dos módulos
-    foreach ($module as $key => $value) {
-      $stylePath = $value . '/scripts.js';
-      if (file_exists($scriptPath)) {
-        include $scriptPath;
+    foreach ($modules as $key => $value) {
+      $modulePath = $value . '/scripts.js';
+      if (file_exists($modulePath)) {
+        include $modulePath;
       }
     }
     ?>
