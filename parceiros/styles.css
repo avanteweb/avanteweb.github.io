@@ -17,7 +17,7 @@
   display: inline-block;
   padding-left: 15px;
   padding-right: 15px;
-  font-family: 'OpenSansSemibold', sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
   text-transform: uppercase;
   vertical-align: middle;
@@ -29,6 +29,7 @@
   padding:30px 0;
   list-style: none;
   text-align: center;
+  margin-bottom: -50px;
 }
 
 .module.parceiros li {
@@ -57,3 +58,4 @@
   width: 100px;
   height: auto;
 }
+
