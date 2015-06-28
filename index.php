@@ -19,6 +19,7 @@
     "projetos",
     "contatos",
     "parceiros",
+    "footer"
   ];
 ?>
 <!DOCTYPE html>
