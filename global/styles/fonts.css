@@ -1,42 +1,17 @@
 @font-face {
-  font-family: 'OpenSansSemibold';
-  src: url("global/fonts/OpenSans-Semibold.ttf");
-}
-
-@font-face {
-  font-family: 'OpenSansLight';
-  src: url("global/fonts/OpenSans-Light.ttf");
-}
-
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("global/fonts/OpenSans-Regular.ttf");
-}
-
-@font-face {
-  font-family: 'RobotoLight';
-  src: url("global/fonts/Roboto-Light.ttf");
-}
-
-@font-face {
-  font-family: 'KGAdipose';
-  src: url("global/fonts/KGAdiposeUnicase.ttf");
-}
-
-@font-face {
   font-family: 'Raleway';
-  font-weight: 500;
+  font-weight: normal;
   src: url("global/fonts/Raleway-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'Raleway';
-  font-weight: 300;
-  src: url("global/fonts/Raleway-Thin.ttf");
+  font-family: 'OpenSans';
+  font-weight: normal;
+  src: url("global/fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'Raleway';
-  font-weight: 700;
-  src: url("global/fonts/Raleway-Bold.ttf");
+  font-family: 'KGAdipose';
+  font-weight: normal;
+  src: url("global/fonts/KGAdiposeUnicase.ttf");
 }

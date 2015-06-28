@@ -8,23 +8,19 @@
   height: 4px;
   background: #90ada9;
   z-index: 0;
-  margin-top: -10px;
+  margin-top: -14px;
 }
 
 .module.quem-somos h1 {
   margin-top: 40px;
-  margin-left: 73px;
-  padding: -20px;
+  margin-left: 70px;
   background-color: #eeeae3;
   z-index: 1;
   display: inline-block;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 31px;
-  font-family: 'Raleway', sans-serif;
   text-align: center;
   text-transform: uppercase;
-  vertical-align: middle;
   color: #20546a;
 }
 
@@ -36,11 +32,7 @@
 }
 
 .module.quem-somos p {
-  font-size: 15px;
-  font-family: 'OpenSansLight', sans-serif;
-  text-align: left;
   word-spacing: 5px;
-  line-height: 30px;
   text-indent: 30px;
   margin-top: 20px;
 }
@@ -59,15 +51,3 @@
   width: 330px;
   height: 170px;
 }
-
-/* ESPERANDO DECISÃO DA EQUIPE
-.module.quem-somos div.imagem1:hover {
-  width: 600px;
-  height: 400px;
-}
-
-.module.quem-somos div.imagem2:hover {
-  width: 600px;
-  height: 400px;
-} */
-
