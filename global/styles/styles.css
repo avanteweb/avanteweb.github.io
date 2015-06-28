@@ -9,6 +9,10 @@
   padding: 0;
 }
 
+body {
+  font-family: 'OpenSansRegular', Arial, sans-serif;
+}
+
 /* Elementos de bloco */
 
 img {
