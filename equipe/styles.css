@@ -1,10 +1,17 @@
 .module.equipe {
+/*  box-sizing: border-box;*/
   position: relative;
   top: 40px;
-  height: 420px;
+  height: 280px;
   width: 100%;
-  z-index: 999;
+  z-index: 1;
   background-color: #fff;
+}
+
+.module.equipe .wrapper {
+/*  box-sizing: border-box;*/
+  border-bottom: 4px solid #aaae8d;
+  height: 260px;
 }
 
 .module.equipe h1 {
@@ -26,7 +33,7 @@
   content: '';
   display: block;
   width: 100%;
-  border-bottom: 4px solid #36561a;
+  border-bottom: 4px solid #aaae8d;
   z-index: -1;
   position: absolute;
   bottom: 8px;
@@ -42,65 +49,98 @@
   width: 194px;
   height: 194px;
   border-radius: 50%;
-  padding: 20px;
   z-index: 1;
+  padding: 20px;
   margin-top: -80px;
-  transition: width .15s, height .15s, padding .15s;
+  transition: padding .5s;
 }
 
 .module.equipe li:hover img {
   position: relative;
-  z-index: 999;
+  width: 194px;
+  height: 194px;
+  z-index: 2;
   padding: 0;
-  transition: width .15s, height .15s, padding .15s;
+  transition: padding .5s;
+}
+
+.module.equipe ul {
+  padding-top: 80px;
+  height: 180px;
 }
 
 .module.equipe ul li {
   display: inline-block;
   width: 190px;
-  height: 190px;
+  height: 100px;
   padding: 0;
   margin: 0;
+  margin-right: -40px;
   text-align: center;
 }
 
 .module.equipe .foto {
   position: relative;
   top: 100px;
-  z-index: 0;
 }
 
-.module.equipe .nome {
+.module.equipe .nome1, .nome2 {
   position: relative;
-  top: 80px;
+  top: -198px;
   width: 190px;
-  z-index: 1;
-  font-size: 20px;
-  font-family: 'OpenSansSemibold', sans-serif;
+  height: 194px;
+  z-index: 0;
+  font-size: 16px;
+  font-family: 'KGAdipose', sans-serif;
+  z-index: 4;
+  opacity: 0;
+  padding-top: 60px;
+  border-radius: 50%;
+  transition: opacity .5s, padding .5s;
+}
+
+.module.equipe .nome1:hover, .nome2:hover {
+  opacity: 0;
+  transition: opacity .5s, padding .5s;
+}
+
+.module.equipe .nome1 {
+  color: #b6ff8e;
+  background-color: rgba(82, 98, 51, .5);
+}
+
+.module.equipe .nome2 {
+  color: #5ccfff;
+  background-color: rgba(32, 54, 106, .5);
+}
+
+.module.equipe li:hover .nome1, li:hover .nome2 {
+  opacity: 100;
+  transition: opacity .5s;
 }
 
 .module.equipe .funcao {
   position: relative;
   border: 0px solid #000;
-  top: -92px;
+  top: -290px;
   left: 0;
-  height: 190px;
+  height: 30px;
   width: 190px;
   opacity: 100;
   font-size: 20px;
   transition: opacity .5s;
-  z-index: 2;
   display: inline-block;
   font-family: 'OpenSansSemibold', sans-serif;
+  color: #fff;
+  z-index: 999;
 }
 
 .module.equipe li .funcao, li .nome {
   opacity: 0;
-  transition: opacity .15s;
+  transition: opacity .5s;
 }
 
 .module.equipe li:hover .funcao, li:hover .nome {
   opacity: 100;
-  z-index: 2;
   transition: opacity .5s;
 }
