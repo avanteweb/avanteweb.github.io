@@ -2,18 +2,19 @@
   padding: 40px 0;
 }
 
-.module.parceiros hr {
-  border: 0;
-  height: 4px;
-  background: #90ada9;
+.module.parceiros div.wrapper:before {
+  border-bottom: 4px solid #eeeae3;
+  content: '';
+  position: absolute;
+  margin-top: 25px;
+  width: 1000px;
   z-index: 0;
-  margin-top: -10px;
 }
 
-.module.parceiros h1 {
+.module.parceiros h2 {
   margin-left: 73px;
   background-color: #fff;
-  z-index: 1;
+  position: absolute;
   display: inline-block;
   padding-left: 15px;
   padding-right: 15px;
@@ -35,6 +36,7 @@
   display:inline-block;
   vertical-align: middle;
   margin:0 20px;
+  margin-top: 50px;
 }
 
 

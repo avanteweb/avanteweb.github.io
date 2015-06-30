@@ -7,19 +7,19 @@
   background-color: #fff;
 }
 
-.module.equipe h1 {
+.module.equipe h2 {
   position: relative;
   text-indent: 2em;
   color: #36561a;
   text-transform: uppercase;
 }
 
-.module.equipe h1 span {
+.module.equipe h2 span {
   background: white;
   padding: 1em;
 }
 
-.module.equipe h1:after {
+.module.equipe h2:after {
   content: '';
   display: block;
   width: 100%;
@@ -55,7 +55,7 @@
 }
 
 .module.equipe ul {
-  padding-top: 80px;
+  padding-top: 90px;
   height: 180px;
 }
 
