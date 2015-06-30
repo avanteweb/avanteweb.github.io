@@ -1,5 +1,4 @@
 .module.equipe {
-/*  box-sizing: border-box;*/
   position: relative;
   top: 40px;
   height: 280px;
@@ -8,19 +7,10 @@
   background-color: #fff;
 }
 
-.module.equipe .wrapper {
-/*  box-sizing: border-box;*/
-  border-bottom: 4px solid #aaae8d;
-  height: 260px;
-}
-
 .module.equipe h1 {
   position: relative;
   text-indent: 2em;
   color: #36561a;
-  font-weight: semibold;
-  font-size: 31px;
-  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
 }
 
