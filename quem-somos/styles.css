@@ -3,20 +3,21 @@
   height: 600px;
 }
 
-.module.quem-somos hr {
-  border: 0;
-  height: 4px;
-  background: #90ada9;
+.module.quem-somos div.wrapper:before {
+  border-bottom: 4px solid #20546a;
+  content: '';
+  position: absolute;
+  margin-top: 65px;
+  width: 1000px;
   z-index: 0;
-  margin-top: -14px;
 }
 
-.module.quem-somos h1 {
+.module.quem-somos h2 {
   margin-top: 40px;
   margin-left: 70px;
   background-color: #eeeae3;
-  z-index: 1;
   display: inline-block;
+  position: absolute;
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
@@ -24,8 +25,8 @@
   color: #20546a;
 }
 
-.module.quem-somos div.posicao {
-  margin-top: 40px;
+.module.quem-somos div.texto {
+  margin-top: 100px;
   margin-bottom: 20px;
   display: inline-block;
   margin-right: 450px;
