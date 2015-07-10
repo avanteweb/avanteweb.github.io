@@ -28,7 +28,7 @@
 .module.menu ul {
   position: relative;
   bottom: -10px;
-  transform: translateY(-120%);
+  transform: translateX(120%);
   transition: all .4s linear;
 }
 
@@ -45,17 +45,17 @@
   text-transform: uppercase; 
 } 
 
-.module.menu .logo {
+.module.menu h2.logo {
   display:block;
-  width:auto;
+  width: 30px;
   height: 30px; 
-  opacity: 0.8;
+  opacity: .8;
   margin-left: 10px;
 }
 
 .module.menu .logo:hover {
   opacity: 1;
-  transition: opacity .5s;
+  transition: opacity .6s;
 }
 
 .module.menu a {
@@ -89,6 +89,18 @@
     z-index: 9999;
   }
 
+  .module.menu h2.logo {
+    display: block;
+    width: 30px;
+    height: 30px; 
+    opacity: .8;
+  }
+
+  .module.menu .logo:hover {
+    opacity: 1;
+    transition: opacity .5s;
+  }
+
   .module.menu .icone-menu {
     display: none;
   }
@@ -96,11 +108,14 @@
   .module.menu ul {
     list-style: none;
     text-align: center;
-    transform: translateY(-120%);
+    position: absolute;
+    width: 800px;
+    left: calc(50% - 400px);
+    transform: translateY(-50%);
   }
 
   .module.menu .icone-menu:hover, .module.menu:hover ul {
-    transform: translateY(-120%);
+    transform: translateY(-50%);
   }
 
   .module.menu ul li {
@@ -110,13 +125,6 @@
     background-color: transparent;
     vertical-align: middle;
     text-transform: uppercase;
-  }
-
-  .module.menu .logo {
-    display: block;
-    width: auto;
-    height: 30px; 
-    opacity: 0.8;
   }
 
   .module.menu a {
