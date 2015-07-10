@@ -1,10 +1,11 @@
 .module.equipe {
   position: relative;
-  top: 40px;
-  height: 280px;
+  top: 20px;
   width: 100%;
   z-index: 1;
   background-color: #fff;
+  height: auto;
+  text-align: center;
 }
 
 .module.equipe h2 {
@@ -12,18 +13,19 @@
   text-indent: 2em;
   color: #36561a;
   text-transform: uppercase;
+  text-align: left;
 }
 
 .module.equipe h2 span {
-  background: white;
-  padding: 1em;
+  background-color: white;
+  padding: .4em;
 }
 
 .module.equipe h2:after {
   content: '';
   display: block;
   width: 100%;
-  border-bottom: 4px solid #aaae8d;
+  border-bottom: 2px solid #aaae8d;
   z-index: -1;
   position: absolute;
   bottom: 8px;
@@ -34,15 +36,17 @@
   margin: 15px;
 }
 
+.module.equipe h3 {
+  font-family: 'KGAdipose', sans-serif;
+}
+
 .module.equipe img {
-  position: relative;
   width: 194px;
   height: 194px;
   border-radius: 50%;
   z-index: 1;
   padding: 20px;
   margin-top: -80px;
-  transition: padding .5s;
 }
 
 .module.equipe li:hover img {
@@ -56,35 +60,29 @@
 
 .module.equipe ul {
   padding-top: 90px;
-  height: 180px;
+  margin-left: -40px;
 }
 
 .module.equipe ul li {
   display: inline-block;
   width: 190px;
   height: 100px;
-  padding: 0;
   margin: 0;
   margin-right: -40px;
   text-align: center;
 }
 
-.module.equipe .foto {
-  position: relative;
-  top: 100px;
-}
-
 .module.equipe .nome1, .nome2 {
   position: relative;
-  top: -198px;
   width: 190px;
   height: 194px;
+  top: -204px;
+  padding-top: 60px;
+  margin-bottom: -190px;
   z-index: 0;
   font-size: 16px;
-  font-family: 'KGAdipose', sans-serif;
   z-index: 4;
   opacity: 0;
-  padding-top: 60px;
   border-radius: 50%;
   transition: opacity .5s, padding .5s;
 }
@@ -111,8 +109,7 @@
 
 .module.equipe .funcao {
   position: relative;
-  border: 0px solid #000;
-  top: -290px;
+  top: -122px;
   left: 0;
   height: 30px;
   width: 190px;
@@ -123,6 +120,7 @@
   font-family: 'OpenSansSemibold', sans-serif;
   color: #fff;
   z-index: 999;
+  border: 0px solid #000;
 }
 
 .module.equipe li .funcao, li .nome {
@@ -133,4 +131,19 @@
 .module.equipe li:hover .funcao, li:hover .nome {
   opacity: 100;
   transition: opacity .5s;
+}
+
+@media screen and (min-width: 769px) {
+  .module.equipe {
+    height: 280px;
+    top: 40px;
+  }
+
+  .module.equipe h2 span {
+    padding: 1em;
+  }
+
+  .module.equipe h2:after {
+    border-bottom: 4px solid #aaae8d;
+  }
 }
