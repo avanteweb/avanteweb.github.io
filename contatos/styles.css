@@ -34,8 +34,8 @@
   display: block;
   margin: auto;
   margin-top: 60px;
-  width: 200px;
-  text-align: left;
+  width: 220px;
+  text-align: center;
   font-family: 'OpenSansLight', sans-serif;
   color: #fff;
   font-size: 15px;
@@ -47,7 +47,11 @@
   background-position: 5% 10%;
   background-repeat: no-repeat;
   font-size: 23px;
-  text-align: center;
+}
+
+.module.contatos p.texto-endereco {
+  text-indent: 10px;
+  text-align: left;
 }
 
 .module.contatos p.git {
@@ -59,7 +63,6 @@
   margin-top: 30px;
   padding-left: 30px;
   padding-bottom: 50px;
-  text-align: center;
 }
 
 .module.contatos a {
@@ -100,7 +103,7 @@
     padding-top: 40px;
     padding-right: 15px;
     padding-left: 15px;
-    width: 200px;
+    width: 220px;
     background-color: #20546a;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
@@ -115,7 +118,7 @@
     padding-top: 20px;
     margin-top: 60px;
     margin-left: 30px;
-    width: 200px;
+    width: 220px;
     text-align: center;
     font-family: 'OpenSansLight', sans-serif;
     color: #fff;
@@ -123,7 +126,6 @@
   }
 
   .module.contatos p.titulo-endereco {
-    padding-left: 40px;
     background-image: url('contatos/img/house.png');
     background-size: 25px 25px;
     background-position: 5% 10%;
@@ -133,11 +135,12 @@
 
   .module.contatos p.texto-endereco {
     text-align: left;
+    text-indent: 10px;
   }
 
   .module.contatos p.git {
     margin-top: 30px;
-    padding-left: 40px;
+    padding-left: 30px;
     background-image: url('contatos/img/github.png');
     background-size: 25px 25px;
     background-position: 5% 10%;
