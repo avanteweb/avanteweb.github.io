@@ -24,7 +24,7 @@
   background-color: #20546a;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
-  font-size: 31px; 
+  font-size: 31px;
   text-align: center;
   vertical-align: middle;
   color: #eeeae3;
@@ -77,7 +77,7 @@
 }
 
 
-@media screen and (min-width: 769px) { 
+@media screen and (min-width: 769px) {
   .module.contatos {
     margin-top: 0;
     height: 381px;
@@ -104,7 +104,7 @@
     background-color: #20546a;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
-    font-size: 31px; 
+    font-size: 31px;
     text-align: center;
     vertical-align: middle;
     color: #eeeae3;
@@ -159,5 +159,4 @@
     width: 536px;
     height: 204px;
   }
-
 }

@@ -5,6 +5,7 @@
   width: 100%;
   z-index: 0;
 }
+
 .module.jumbotron:after {
   background-color: rgba(0, 0, 0, .44);
   content: '';
@@ -20,7 +21,7 @@
   height: auto;
   left: calc(50% - 100px);
   position: absolute;
-  top:calc(50%);
+  top: calc(50%);
   width: 200px;
   z-index: 2;
 }
@@ -30,7 +31,7 @@
     height: auto;
     left: calc(50% - 150px);
     position: absolute;
-    top:calc(50% - 10px);
+    top: calc(50% - 10px);
     width: 300px;
     z-index: 2;
   }
@@ -41,7 +42,7 @@
     height: auto;
     left: calc(50% - 250px);
     position: absolute;
-    top:calc(50% - 62px);
+    top: calc(50% - 62px);
     width: 500px;
     z-index: 2;
   }

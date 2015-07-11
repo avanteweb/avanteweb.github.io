@@ -72,7 +72,8 @@
   text-align: center;
 }
 
-.module.equipe .nome1, .nome2 {
+.module.equipe .nome1,
+.nome2 {
   position: relative;
   width: 190px;
   height: 194px;
@@ -87,7 +88,8 @@
   transition: opacity .5s, padding .5s;
 }
 
-.module.equipe .nome1:hover, .nome2:hover {
+.module.equipe .nome1:hover,
+.nome2:hover {
   opacity: 0;
   transition: opacity .5s, padding .5s;
 }
@@ -102,7 +104,8 @@
   background-color: rgba(32, 54, 106, .5);
 }
 
-.module.equipe li:hover .nome1, li:hover .nome2 {
+.module.equipe li:hover .nome1,
+li:hover .nome2 {
   opacity: 100;
   transition: opacity .5s;
 }
@@ -123,12 +126,14 @@
   border: 0px solid #000;
 }
 
-.module.equipe li .funcao, li .nome {
+.module.equipe li .funcao,
+li .nome {
   opacity: 0;
   transition: opacity .5s;
 }
 
-.module.equipe li:hover .funcao, li:hover .nome {
+.module.equipe li:hover .funcao,
+li:hover .nome {
   opacity: 100;
   transition: opacity .5s;
 }

@@ -25,12 +25,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <title>Avante | Estúdio de Tecnologia</title>
-  <link rel="apple-touch-icon" href="global/images/apple-touch-icon.png">
-  <link rel="icon" href="global/images/favicon.png">
-  
+  <link rel="apple-touch-icon" href="global/images/apple-touch-icon.png" />
+  <link rel="icon" href="global/images/favicon.png" />
+
   <style>
     <?php
     // Inclui os CSSs Globais
