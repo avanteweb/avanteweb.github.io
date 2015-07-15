@@ -1,35 +1,65 @@
 .module.menu {
-	display: block;
+  display: block;
   position: fixed;
   top: 0;
   width: 100%;
   height: 50px;
-  padding:10px 0;
+  padding: 10px 0;
   background: rgba(0,0,0,.7);
   z-index: 9999;
 }
 
+.module.menu .icone-menu {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  text-align: right;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(255,255,255,.8);
+}
+
+.module.menu .icone-menu:hover {
+  color: rgba(255,255,255,1);
+  transition: color 0.5s;
+}
+
 .module.menu ul {
-  list-style: none;
-  text-align: center;
+  position: relative;
+  bottom: -10px;
+  transform: translateX(120%);
+  transition: all .4s linear;
+}
+
+.module.menu .icone-menu:hover, .module.menu:hover ul {
+  transform: translateY(0);
 }
 
 .module.menu ul li {
-  display: inline-block;
-  margin:0 20px;
-  vertical-align: middle;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(0,0,0,.7);
+  text-align: center;
   text-transform: uppercase;
 }
 
-.module.menu .logo {
-  display:block;
-  width:auto;
-  height: 30px; 
-  opacity: 0.8;
+.module.menu h2.logo {
+  display: block;
+  width: 30px;
+  height: 30px;
+  opacity: .8;
+  margin-left: 10px;
+}
+
+.module.menu .logo:hover {
+  opacity: 1;
+  transition: opacity .6s;
 }
 
 .module.menu a {
-  color: rgba(255,255,255,.8);
+  color: rgba(255, 255, 255, .8);
   text-decoration: none;
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 300;
@@ -38,9 +68,81 @@
   height: 100%;
   -webkit-transition: color 0.5s;
   -moz-transition: color 0.5s;
-  -o-transition: color 0.5s; 
+  -o-transition: color 0.5s;
   transition: color 0.5s;
 }
-.module.menu ul li a:hover{
-  color: rgba(255,255,255,1);
+
+.module.menu ul li a:hover {
+  color: rgba(255, 255, 255, 1);
 }
+
+@media screen and (min-width: 769px) {
+  .module.menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, .7);
+    z-index: 9999;
+  }
+
+  .module.menu h2.logo {
+    display: block;
+    width: 30px;
+    height: 30px;
+    opacity: .8;
+  }
+
+  .module.menu .logo:hover {
+    opacity: 1;
+    transition: opacity .5s;
+  }
+
+  .module.menu .icone-menu {
+    display: none;
+  }
+
+  .module.menu ul {
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    width: 800px;
+    left: calc(50% - 400px);
+    transform: translateY(-50%);
+  }
+
+  .module.menu .icone-menu:hover,
+  .module.menu:hover ul {
+    transform: translateY(-50%);
+  }
+
+  .module.menu ul li {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 0;
+    background-color: transparent;
+    vertical-align: middle;
+    text-transform: uppercase;
+  }
+
+  .module.menu a {
+    color: rgba(255, 255, 255, .8);
+    text-decoration: none;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    transition: color 0.5s;
+  }
+
+  .module.menu ul li a:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+

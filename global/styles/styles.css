@@ -13,6 +13,7 @@ body {
   font-family: 'OpenSans', Arial, sans-serif;
   font-size: 15px;
   line-height: 30px;
+  overflow-x: hidden;
 }
 
 h1,
@@ -54,5 +55,5 @@ img {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1024px;
 }

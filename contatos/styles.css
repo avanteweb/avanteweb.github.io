@@ -1,6 +1,6 @@
 .module.contatos {
   margin-top: 0;
-  height: 381px;
+  height: auto;
   background-color: #20546a;
 }
 
@@ -9,7 +9,7 @@
   content: '';
   position: absolute;
   margin-top: 65px;
-  width: 1000px;
+  width: 100%;
   z-index: 1;
 }
 
@@ -24,40 +24,45 @@
   background-color: #20546a;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
-  font-size: 31px; 
+  font-size: 31px;
   text-align: center;
   vertical-align: middle;
   color: #eeeae3;
 }
 
+.module.contatos div.esquerda {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  width: 220px;
+  text-align: center;
+  font-family: 'OpenSansLight', sans-serif;
+  color: #fff;
+  font-size: 15px;
+}
+
 .module.contatos p.titulo-endereco {
-  padding-left: 40px;
   background-image: url('contatos/img/house.png');
   background-size: 25px 25px;
-  background-position: 0 50%;
+  background-position: 5% 10%;
   background-repeat: no-repeat;
-  color: #fff;
-  font-family: 'OpenSansLight', sans-serif;
   font-size: 23px;
 }
 
 .module.contatos p.texto-endereco {
-  font-family: 'OpenSansLight', sans-serif;
-  font-size: 15px;
-  color: #fff;
+  text-indent: 10px;
+  text-align: left;
 }
 
 .module.contatos p.git {
-  margin-top: 30px;
-  padding-left: 40px;
   background-image: url('contatos/img/github.png');
   background-size: 25px 25px;
-  background-position: 0 50%;
+  background-position: 5% 10%;
   background-repeat: no-repeat;
   height: 24px;
-  color: #fff;
-  font-family: 'OpenSansLight', sans-serif;
-  font-size: 15px;
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 50px;
 }
 
 .module.contatos a {
@@ -65,18 +70,96 @@
   text-decoration: none;
 }
 
-.module.contatos div.esquerda {
-  margin-top: 60px;
-  width: 400px;
-  display: inline-block;
-}
 
 .module.contatos img.google-maps {
-  position: relative;
-  display: inline-block;
-  float: right;
+  display: block;
+  margin: auto;
   margin-top: 60px;
-  margin-right: 40px;
-  width: 536px;
+  width: 80%;
   height: 204px;
+}
+
+
+@media screen and (min-width: 769px) {
+  .module.contatos {
+    margin-top: 0;
+    height: 381px;
+    background-color: #20546a;
+  }
+
+  .module.contatos div.wrapper:before {
+    border-bottom: 4px solid #eeeae3;
+    content: '';
+    position: absolute;
+    margin-top: 65px;
+    width: 1000px;
+    z-index: 1;
+  }
+
+  .module.contatos h2.titulo {
+    position: relative;
+    z-index: 1;
+    margin-left: 73px;
+    padding-top: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 220px;
+    background-color: #20546a;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 31px;
+    text-align: center;
+    vertical-align: middle;
+    color: #eeeae3;
+  }
+
+  .module.contatos div.esquerda {
+    display: inline-block;
+    padding-top: 20px;
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 220px;
+    text-align: center;
+    font-family: 'OpenSansLight', sans-serif;
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .module.contatos p.titulo-endereco {
+    background-image: url('contatos/img/house.png');
+    background-size: 25px 25px;
+    background-position: 5% 10%;
+    background-repeat: no-repeat;
+    font-size: 23px;
+  }
+
+  .module.contatos p.texto-endereco {
+    text-align: left;
+    text-indent: 10px;
+  }
+
+  .module.contatos p.git {
+    margin-top: 30px;
+    padding-left: 30px;
+    background-image: url('contatos/img/github.png');
+    background-size: 25px 25px;
+    background-position: 5% 10%;
+    background-repeat: no-repeat;
+    height: 24px;
+  }
+
+  .module.contatos a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .module.contatos img.google-maps {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-top: 60px;
+    margin-right: 40px;
+    width: 536px;
+    height: 204px;
+  }
 }
