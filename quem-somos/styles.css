@@ -1,14 +1,42 @@
 .module.quem-somos {
+  position: relative;
+  height: auto;
+  width: 100%;
+  z-index: 1;
   background: #eeeae3;
-  height: 600px;
+  padding: 15px;
 }
 
-.module.quem-somos div.wrapper:before {
-  border-bottom: 4px solid #90ada9;
+.module.quem-somos h2 {
+  position: relative;
+  text-indent: 1em;
+  color: #20546a;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 15px;
+}
+
+.module.quem-somos h2 span {
+  background-color: #eeeae3;
+  padding: .4em;
+}
+
+.module.quem-somos h2:after {
+  content: '';
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #90ada9;
+  z-index: -1;
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+}
+/*.module.quem-somos .wrapper:before {
+  border-bottom: 2px solid #90ada9;
   content: '';
   position: absolute;
   margin-top: 65px;
-  width: 1000px;
+  width: 100%;
   z-index: 0;
 }
 
@@ -19,17 +47,15 @@
   display: inline-block;
   position: absolute;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 45px;
   text-align: center;
   text-transform: uppercase;
   color: #20546a;
 }
-
-.module.quem-somos div.texto {
-  margin-top: 100px;
-  margin-bottom: 20px;
+*/
+.module.quem-somos .texto {
+  margin: 20px;
   display: inline-block;
-  margin-right: 450px;
 }
 
 .module.quem-somos p {
@@ -38,17 +64,41 @@
   margin-top: 20px;
 }
 
-.module.quem-somos div.imagem1 {
-  float: right;
-  margin-top: -250px;
-  width: 400px;
-  height: 200px;
+.module.quem-somos .imagem1 {
+  position: relative;
+  float: center;
+  width: 100%;
+  padding: 20px;
 }
 
-.module.quem-somos div.imagem2{
-  float: right;
-  margin-top: -410px;
-  margin-right: 100px;
-  width: 330px;
-  height: 170px;
+.module.quem-somos .imagem2 {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .module.quem-somos .texto {
+    margin-right: 450px;
+  }
+  
+  .module.quem-somos h2 {
+    text-indent: 2em;
+  }
+  
+  .module.quem-somos h2:after {
+    border-bottom: 4px solid #90ada9;
+  }
+  
+  .module.quem-somos .imagem1 {
+    float: right;
+    margin-top: -260px;
+    width: 400px;
+  }
+
+  .module.quem-somos .imagem2 {
+    display: inherit;
+    float: right;
+    margin-top: -410px;
+    margin-right: 100px;
+    width: 330px;
+  }
 }
