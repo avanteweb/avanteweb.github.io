@@ -10,10 +10,11 @@
 
 .module.equipe h2 {
   position: relative;
-  text-indent: 2em;
+  text-indent: 1em;
   color: #36561a;
   text-transform: uppercase;
   text-align: left;
+  margin: 15px;
 }
 
 .module.equipe h2 span {
@@ -30,10 +31,6 @@
   position: absolute;
   bottom: 8px;
   left: 0;
-}
-
-.module.equipe h2 {
-  margin: 15px;
 }
 
 .module.equipe h3 {
@@ -141,6 +138,10 @@ li:hover .nome {
 @media screen and (min-width: 769px) {
   .module.equipe {
     top: 40px;
+  }
+
+  .module.equipe h2 {
+    text-indent: 2em;
   }
 
   .module.equipe h2 span {
