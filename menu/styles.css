@@ -15,7 +15,7 @@
   right: 10px;
   cursor: pointer;
   text-align: right;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   color: rgba(255,255,255,.8);
 }
@@ -78,18 +78,20 @@
 
 @media screen and (min-width: 769px) {
   .module.menu {
+    width: 100%;
+    height: 50px;
     display: block;
     position: fixed;
     top: 0;
-    width: 100%;
-    height: 50px;
     padding: 10px 0;
-    background: rgba(0, 0, 0, .7);
+    padding-right: calc(50% - 400px);
+    text-align: right;
     z-index: 9999;
+    background: rgba(0, 0, 0, .7);
   }
 
   .module.menu h2.logo {
-    display: block;
+    display: inline-block;
     width: 30px;
     height: 30px;
     opacity: .8;
@@ -105,17 +107,15 @@
   }
 
   .module.menu ul {
+    display: inline-block;
     list-style: none;
     text-align: center;
-    position: absolute;
-    width: 800px;
-    left: calc(50% - 400px);
-    transform: translateY(-50%);
+    transform: translateY(-60%);
   }
 
   .module.menu .icone-menu:hover,
   .module.menu:hover ul {
-    transform: translateY(-50%);
+    transform: translateY(-60%);
   }
 
   .module.menu ul li {
