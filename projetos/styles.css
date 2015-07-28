@@ -1,6 +1,7 @@
 .module.projetos {
   background-color: #526233;
   height: 790px;
+  display: none;
 }
 
 .module.projetos .wrapper {
