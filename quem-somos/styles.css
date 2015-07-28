@@ -14,6 +14,7 @@
   text-transform: uppercase;
   text-align: left;
   margin: 15px;
+  font-size: 25px;
 }
 
 .module.quem-somos h2 span {
@@ -31,28 +32,7 @@
   bottom: 8px;
   left: 0;
 }
-/*.module.quem-somos .wrapper:before {
-  border-bottom: 2px solid #90ada9;
-  content: '';
-  position: absolute;
-  margin-top: 65px;
-  width: 100%;
-  z-index: 0;
-}
 
-.module.quem-somos h2 {
-  margin-top: 40px;
-  margin-left: 70px;
-  background-color: #eeeae3;
-  display: inline-block;
-  position: absolute;
-  padding-left: 15px;
-  padding-right: 45px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #20546a;
-}
-*/
 .module.quem-somos .texto {
   margin: 20px;
   display: inline-block;
@@ -73,6 +53,12 @@
 
 .module.quem-somos .imagem2 {
   display: none;
+}
+
+@media screen and (min-width: 400px) {
+  .module.quem-somos h2 {
+    font-size: 31px;
+  }
 }
 
 @media screen and (min-width: 769px) {
