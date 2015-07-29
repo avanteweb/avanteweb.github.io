@@ -1,23 +1,36 @@
 .module.footer {
-  padding:20px 0 50px 0;
-  color:#666;
+  padding: 20px 0 50px 0;
+  color: #666;
   font-size: 13px;
-  background:#000;
+  background: #000;
 }
 
 .module.footer a {
-  color:#CCC;
+  color: #CCC;
   text-decoration: none;
 }
+
 .module.footer a:hover {
-  color:#FFF;
+  color: #FFF;
   text-decoration: underline;
 }
 
 .module.footer .copyright {
-  float:left;
+  display: block;
+  text-align: center;
 }
 
 .module.footer .credits {
-  float:right;
+  display: block;
+  text-align: center;
+}
+
+@media screen and (min-width: 769px) {
+  .module.footer .copyright {
+    float: left;
+  }
+
+  .module.footer .credits {
+    float: right;
+  }
 }
