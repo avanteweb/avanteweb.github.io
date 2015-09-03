@@ -1,0 +1,154 @@
+.module.equipe {
+  position: relative;
+  top: 20px;
+  width: 100%;
+  z-index: 1;
+  background-color: #fff;
+  height: auto;
+  text-align: center;
+}
+
+.module.equipe h2 {
+  position: relative;
+  text-indent: 1em;
+  color: #36561a;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 15px;
+}
+
+.module.equipe h2 span {
+  background-color: white;
+  padding: .4em;
+}
+
+.module.equipe h2:after {
+  content: '';
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #aaae8d;
+  z-index: -1;
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+}
+
+.module.equipe h3 {
+  font-family: 'KGAdipose', sans-serif;
+}
+
+.module.equipe img {
+  width: 194px;
+  height: 194px;
+  border-radius: 50%;
+  z-index: 1;
+  padding: 20px;
+  margin-top: -80px;
+}
+
+.module.equipe li:hover img {
+  position: relative;
+  width: 194px;
+  height: 194px;
+  z-index: 2;
+  padding: 0;
+  transition: padding .5s;
+}
+
+.module.equipe ul {
+  padding-top: 90px;
+  margin-left: -40px;
+}
+
+.module.equipe ul li {
+  display: inline-block;
+  width: 190px;
+  height: 100px;
+  margin: 0;
+  margin-right: -40px;
+  text-align: center;
+}
+
+.module.equipe .nome1,
+.nome2 {
+  position: relative;
+  width: 190px;
+  height: 194px;
+  top: -204px;
+  padding-top: 60px;
+  margin-bottom: -190px;
+  z-index: 0;
+  font-size: 16px;
+  z-index: 4;
+  opacity: 0;
+  border-radius: 50%;
+  transition: opacity .5s, padding .5s;
+}
+
+.module.equipe .nome1:hover,
+.nome2:hover {
+  opacity: 0;
+  transition: opacity .5s, padding .5s;
+}
+
+.module.equipe .nome1 {
+  color: #b6ff8e;
+  background-color: rgba(82, 98, 51, .5);
+}
+
+.module.equipe .nome2 {
+  color: #5ccfff;
+  background-color: rgba(32, 54, 106, .5);
+}
+
+.module.equipe li:hover .nome1,
+li:hover .nome2 {
+  opacity: 100;
+  transition: opacity .5s;
+}
+
+.module.equipe .funcao {
+  position: relative;
+  top: -122px;
+  left: 0;
+  height: 30px;
+  width: 190px;
+  opacity: 100;
+  font-size: 20px;
+  transition: opacity .5s;
+  display: inline-block;
+  font-family: 'OpenSansSemibold', sans-serif;
+  color: #fff;
+  z-index: 999;
+  border: 0px solid #000;
+}
+
+.module.equipe li .funcao,
+li .nome {
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.module.equipe li:hover .funcao,
+li:hover .nome {
+  opacity: 100;
+  transition: opacity .5s;
+}
+
+@media screen and (min-width: 769px) {
+  .module.equipe {
+    top: 40px;
+  }
+
+  .module.equipe h2 {
+    text-indent: 2em;
+  }
+
+  .module.equipe h2 span {
+    padding: 1em;
+  }
+
+  .module.equipe h2:after {
+    border-bottom: 4px solid #aaae8d;
+  }
+}

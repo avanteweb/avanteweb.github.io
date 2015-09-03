@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Raleway';
+  font-weight: normal;
+  src: url("global/fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-weight: normal;
+  src: url("global/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'KGAdipose';
+  font-weight: normal;
+  src: url("global/fonts/KGAdiposeUnicase.ttf");
+}

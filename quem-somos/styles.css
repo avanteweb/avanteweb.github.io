@@ -1,0 +1,90 @@
+.module.quem-somos {
+  position: relative;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+  background: #eeeae3;
+  padding: 15px;
+}
+
+.module.quem-somos h2 {
+  position: relative;
+  text-indent: 1em;
+  color: #20546a;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 15px;
+  font-size: 25px;
+}
+
+.module.quem-somos h2 span {
+  background-color: #eeeae3;
+  padding: .4em;
+}
+
+.module.quem-somos h2:after {
+  content: '';
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #90ada9;
+  z-index: -1;
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+}
+
+.module.quem-somos .texto {
+  margin: 20px;
+  display: inline-block;
+}
+
+.module.quem-somos p {
+  word-spacing: 5px;
+  text-indent: 30px;
+  margin-top: 20px;
+}
+
+.module.quem-somos .imagem1 {
+  position: relative;
+  float: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.module.quem-somos .imagem2 {
+  display: none;
+}
+
+@media screen and (min-width: 400px) {
+  .module.quem-somos h2 {
+    font-size: 31px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .module.quem-somos .texto {
+    margin-right: 450px;
+  }
+  
+  .module.quem-somos h2 {
+    text-indent: 2em;
+  }
+  
+  .module.quem-somos h2:after {
+    border-bottom: 4px solid #90ada9;
+  }
+  
+  .module.quem-somos .imagem1 {
+    float: right;
+    margin-top: -260px;
+    width: 400px;
+  }
+
+  .module.quem-somos .imagem2 {
+    display: inherit;
+    float: right;
+    margin-top: -410px;
+    margin-right: 100px;
+    width: 330px;
+  }
+}

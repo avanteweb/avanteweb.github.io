@@ -1,0 +1,148 @@
+.module.projetos {
+  background-color: #526233;
+  height: 790px;
+  display: block;
+}
+
+.module.projetos .wrapper {
+  padding-top: 43px;
+  position: relative;
+}
+
+.module.projetos .wrapper:before {
+  border-bottom: 4px solid #eeeae3;
+  content: '';
+  position: absolute;
+  top: 110px;
+  width: 1000px;
+  z-index: 1;
+}
+
+.module.projetos .link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.module.projetos h2 {
+  background-color: #526233;
+  color: #eeeae3;
+  display: inline-block;
+  margin-left: 73px;
+  padding: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.module.projetos ul {
+  list-style: none;
+}
+
+.module.projetos .top-bar {
+  height: 161px;
+  overflow-y: hidden;
+  position: relative;
+  margin-top: 5px;
+}
+
+.module.projetos .top-bar .top-bar-wrap {
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.module.projetos .top-bar li {
+  display: block;
+  float: left;
+  position: relative;
+}
+
+.module.projetos .top-bar figure {
+  height: 161px;
+  position: relative;
+  width: 249px;
+  z-index: 1;
+}
+
+.module.projetos .top-bar figure:after {
+  background-color: rgba(238, 234, 227, .79);
+  height: 100%;
+  left: 0;
+  content: '';
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: opacity .5s;
+  width: 100%;
+  z-index: 2;
+}
+
+.module.projetos .top-bar figure:hover:after {
+  opacity: 1;
+  transition: opacity .5s;
+  z-index: 1;
+}
+
+.module.projetos .top-bar img {
+  min-height: 161px;
+}
+
+.module.projetos .top-bar figcaption {
+  color: #20546a;
+  font: 20px 'KGAdipose';
+  left: 0;
+  line-height: 1em;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: calc(50% - 1em);
+  transition: opacity .5s;
+  width: 100%;
+  z-index: 2;
+}
+
+.module.projetos .top-bar figure:hover figcaption {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+.module.projetos .description,
+.module.projetos .project-slider {
+  float: left;
+  margin-top: 50px;
+  width: 50%;
+}
+
+.module.projetos .description {
+  color: #fff;
+}
+
+.module.projetos .description h3 {
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.module.projetos .description p {
+  line-height: 22px;
+  margin: 1em;
+}
+
+.module.projetos .project-slider {
+  position: relative;
+}
+
+.module.projetos .project-slider img {
+  height: 300px;
+}
+
+.module.projetos .project-slider li {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.module.projetos .project-slider figcaption {
+  display: none;
+}

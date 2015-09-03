@@ -1,0 +1,59 @@
+/* Resets */
+
+*,
+*:before,
+*:after {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'OpenSans', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size:31px;
+}
+
+h2 {
+  font-size: 31px;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+/* Elementos de bloco */
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Classes Globais */
+
+.clearfix:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1024px;
+}
